@@ -5,8 +5,297 @@
     <title>HTML Academy: Девайс</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Профессиональный HTML и CSS, уровень 1</a>».</p>
-
+    <header class="main-header">
+      <a class="main-header-logo">
+        <img src="img/index-logo.svg" width="200" height="150" alt="Device-Logo">
+      </a>
+      <nav class="main-navigation">
+        <div class="search">
+          <input type="text" class="search-field">
+          <a href="#">
+            Каталог товаров
+          </a>
+        </div>
+        <ul class="user-navigation">
+          <li>
+            <a href="#">
+              Войти
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              Сравнить
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              Корзина
+            </a>
+          </li>
+        </ul>
+        <ul class="site-navigation">
+          <li>
+            <a href="#">
+              Доставка
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              Гарантия
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              Контакты
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <section class="slider">
+        <h2 class="visually-hidden">
+          Лучшие товары
+        </h2>
+        <div class="monopod">
+          <img src="http://placehold.it/150x100" width="300" height="300" alt="Монопод">
+          <b>
+            Делай селфи, как Бен Стиллер!
+          </b>
+          <p>
+            Самая длинная палка для селфи доступна в нашем магазине.
+            Восемь(Восемь, Карл!) метров длиной и весом всего 5 килограмм.
+          </p>
+          <a href="#">
+            Подробнее
+          </a>
+          <table>
+            <tr>
+              <td>8,5 м</td>
+              <td>5 кг</td>
+              <td>Карбон</td>
+            </tr>
+            <tr>
+              <td>Длина палки</td>
+              <td>Вес палки</td>
+              <td>Материал</td>
+            </tr>
+          </table>
+        </div>
+      </section>
+      <section class="categories">
+        <h2 class="visually-hidden">
+          Категории товаров
+        </h2>
+        <ul class="categories-list">
+          <li>
+            <a href="#">
+              <h2>Виртуальная реальность</h2>
+              <img src="img-1.jpg" width="50" height="50" alt="img">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <h2>Моноподы для селфи</h2>
+              <img src="img-2.jpg" width="50" height="50" alt="img">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <h2>Экшн-камеры</h2>
+              <img src="img-3.jpg" width="50" height="50" alt="img">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <h2>Фитнес-браслеты</h2>
+              <img src="img-4.jpg" width="50" height="50" alt="img">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <h2>Умные часы</h2>
+              <img src="img-5.jpg" width="50" height="50" alt="img">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <h2>Квадрокоптеры</h2>
+              <img src="img-6.jpg" width="50" height="50" alt="img">
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section class="service">
+        <h2 class="visually-hidden">
+          Сервис
+        </h2>
+        <ul class="service-list">
+          <li>
+            <h2>
+              Доставка
+            </h2>
+            <h3>
+              Доставка
+            </h3>
+            <p>
+              Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно!
+              Ведь мы неплохо заработаем, поднимая его на ваш этаж.
+            </p>
+          </li>
+          <li>
+            <h2>
+              Гарантия
+            </h2>
+            <h3>
+              Гарантия
+            </h3>
+            <p>
+            </p>
+          </li>
+          <li>
+            <h2>
+              Кредит
+            </h2>
+            <h3>
+              Кредит
+            </h3>
+            <p>
+            </p>
+          </li>
+        </ul>
+      </section>
+      <article class="partners">
+        <h2 class="visually-hidden">
+          Наши партнеры
+        </h2>
+        <ul class="partners-list">
+          <li>
+            <img src="img-1.jpg" width="11" height="11" alt="img">
+          </li>
+          <li>
+            <img src="img-1.jpg" width="11" height="11" alt="img">
+          </li>
+          <li>
+            <img src="img-1.jpg" width="11" height="11" alt="img">
+          </li>
+          <li>
+            <img src="img-1.jpg" width="11" height="11" alt="img">
+          </li>
+        </ul>
+      </article>
+      <section class="about-us">
+        <h2>
+          О нас
+        </h2>
+        <p>
+          Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.
+        </p>
+        <p>
+          Мы можем доставить ваш товар в самые отдаленные точки России!
+          DEVICE работает со многими транспортными компаниями:
+        </p>
+        <ul class="transport-companies">
+          <li>
+            <b>
+              Деловые линии
+            </b>
+          </li>
+          <li>
+            <b>
+              Автотрейдинг
+            </b>
+          </li>
+          <li>
+            <b>
+              ЖелДорЭкспедиция
+            </b>
+          </li>
+        </ul>
+        <a href="#">
+          <b>Подробнее о нас</b>
+        </a>
+      </section>
+      <section class="contacts">
+        <h2>
+          Контакты
+        </h2>
+        <p>
+          Вы можете забрать товар сами, заехав в наш офис. Заодно,
+          вы сможете проверить работоспособность покупки. Всякое бывает.
+        </p>
+        <a href="#">
+          <img src="map.jpg" width="300" height="170" alt="map-img">
+        </a>
+        <a href="#">
+          <b>Напишите нам</b>
+        </a>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <a class="main-footer-logo">
+        <img src="img/index-logo.svg" width="200" height="150" alt="Device-Logo">
+      </a>
+      <ul class="user-navigation">
+        <li>
+          <a href="#">
+            Войти
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            Сравнить
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            Корзина
+          </a>
+        </li>
+      </ul>
+      <ul class="site-navigation">
+        <li>
+          <a href="#">
+            Доставка
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            Гарантия
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            Контакты
+          </a>
+        </li>
+      </ul>
+      <p class="adress">
+        г.Москва, ул.Строителей, 15
+      </p>
+      <p class="tel">
+        Тел.: +7(495)495-95-95
+      </p>
+      <ul class="footer-social">
+        <li>
+          <a href="#">
+            <img src="img1" width="20" height="20" alt="img">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="img2" width="20" height="20" alt="img">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="img3" width="20" height="20" alt="img">
+          </a>
+        </li>
+      </ul>
+      <a href="https://htmlacademy.ru/intensive/htmlcss">
+        <img src="img" width="20" height="20" alt="img">
+      </a>
+    </footer>
   </body>
 </html>
