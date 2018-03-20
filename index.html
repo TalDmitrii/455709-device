@@ -3,25 +3,42 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Девайс</title>
+    <link href="http://fonts.fontstorage.com/import/gilroy.css" rel="stylesheet">
+    <link href="http://fonts.fontstorage.com/import/opensans.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
       <a class="main-header-logo">
-        <img src="img/index-logo.svg" width="200" height="150" alt="Device-Logo">
+        <img src="img/index-logo.svg" width="200" height="150" alt="Логотип Девайс">
       </a>
       <nav class="main-navigation">
         <div class="search">
-          <input type="text" class="search-field">
+          <form class="search-form">
+            <input type="text" class="search-field">
+            <button type="submit">Отправить</button>
+          </form>
           <a href="#">
             Каталог товаров
           </a>
           <ul class="catalog-list visually-hidden">
-            <li>Виртуальная реальность</li>
-            <li>Моноподы для селфи</li>
-            <li>Экшн-камеры</li>
-            <li>Фитнес-браслеты</li>
-            <li>Умные часы</li>
-            <li>Квадрокоптеры</li>
+            <li>
+              <a href="#">Виртуальная реальность</a>
+            </li>
+            <li>
+              <a href="#">Моноподы для селфи</a>
+            </li>
+            <li>
+              <a href="#">Экшн-камеры</a>
+            </li>
+            <li>
+              <a href="#">Фитнес-браслеты</a>
+            </li>
+            <li>
+              <a href="#">Умные часы</a>
+            </li>
+            <li>
+              <a href="#">Квадрокоптеры</a>
+            </li>
           </ul>
         </div>
         <ul class="user-navigation">
@@ -277,19 +294,37 @@
           вы сможете проверить работоспособность покупки. Всякое бывает.
         </p>
         <a href="img/map-big-jpg.png">
-          <img src="img/map-jpg.jpg" width="560" height="222" alt="map-img">
+          <img src="img/map-jpg.jpg" width="560" height="222" alt="Наш адрес: г.Москва, ул.Строителей, 15">
         </a>
         <a href="#">
           <b>Напишите нам</b>
         </a>
-        <div class="write-us">
-          <!-- form -->
+        <div class="write-us visually-hidden">
+          <h3 class="visually-hidden">
+            Форма: Напишите нам
+          </h3>
+          <form action="https://echo.htmlacademy.ru" method="post">
+            <p>
+              <label for="user-name">Ваше имя:</label>
+              <input id="user-name" type="text" name="login" placeholder="Имя Фамилия">
+            </p>
+            <p>
+              <label for="user-mail">Ваш e-mail:</label>
+              <input id="user-mail" type="email" name="mail" placeholder="email@example.com">
+            </p>
+            <p>
+              <label for="user-message">Текст письма:</label>
+              <textarea id="user-message" name="message">В свободной форме</textarea>
+            </p>
+            <button type="submit">Оправить</button>
+          </form>
+          <button type="button">Закрыть</button>
         </div>
       </section>
     </main>
     <footer class="main-footer">
       <a class="main-footer-logo">
-        <img src="img/index-logo.svg" width="200" height="150" alt="Device-Logo">
+        <img src="img/index-logo.svg" width="200" height="150" alt="Логотип Девайс">
       </a>
       <ul class="user-navigation">
         <li><a href="#">Войти</a></li>
@@ -310,22 +345,22 @@
       <ul class="footer-social">
         <li>
           <a href="#">
-            <img src="img/fb.svg" width="32" height="32" alt="img">
+            <img src="img/fb.svg" width="32" height="32" alt="Логотип Фейсбук">
           </a>
         </li>
         <li>
           <a href="#">
-            <img src="img/instagram.svg" width="32" height="32" alt="img">
+            <img src="img/instagram.svg" width="32" height="32" alt="Логотип Инстаграмм">
           </a>
         </li>
         <li>
           <a href="#">
-            <img src="img/twitter.svg" width="32" height="32" alt="img">
+            <img src="img/twitter.svg" width="32" height="32" alt="Логотип Твиттер">
           </a>
         </li>
       </ul>
       <a href="https://htmlacademy.ru/intensive/htmlcss">
-        <img src="img/logo-html.svg" width="27" height="35" alt="img">
+        <img src="img/logo-html.svg" width="27" height="35" alt="Логитип HTML Академии">
       </a>
     </footer>
   </body>
