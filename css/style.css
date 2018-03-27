@@ -1,0 +1,536 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Gilroy", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 800;
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.main-navigation {
+  background-color: rgba(240, 197, 46, 0.5);
+
+  letter-spacing: 0.15px;
+}
+
+.site-navigation,
+.user-navigation,
+.catalog-list,
+.best-products-list,
+.categories-list,
+.service-list,
+.manufacturers-list,
+.transport-companies,
+.footer-social,
+.breadcrumbs,
+.sorting-list,
+.toggle,
+.pagination-list {
+  list-style: none;
+
+  margin: 0;
+  padding: 0;
+}
+
+.main-navigation a {
+  color: #000000;
+}
+
+a.logotype {
+  font-size: 48px;
+  line-height: 48px;
+  color: #000000;
+
+  letter-spacing: 0.26px;
+}
+
+.main-navigation a:hover,
+.main-navigation a:focus,
+.logotype:hover,
+.logotype:focus {
+  opacity: 0.6;
+}
+
+.main-navigation a:active,
+.logotype:active {
+  opacity: 0.3;
+}
+
+.catalog-list {
+  font-size: 15px;
+  line-height: 36px;
+  font-weight: 100;
+
+  text-transform: none;
+  letter-spacing: 0.15px;
+}
+
+.site-navigation {
+  text-transform: uppercase;
+
+  letter-spacing: 3.6px;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+  opacity: 0.6;
+}
+
+.site-navigation a:active {
+  opacity: 0.3;
+}
+
+.user-navigation {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+.field-search {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 300;
+  opacity: 0.3;
+
+  background-color: transparent;
+
+  border: none;
+}
+
+.field-search:hover {
+  opacity: 0.6;
+}
+
+.field-search:focus {
+  opacity: 1;
+
+  border-bottom: 2px solid #000000;
+}
+
+.button-search {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 300;
+
+  border: none;
+  background-color: inherit;
+}
+
+.button-search:focus {
+  color: #000000;
+
+  box-shadow: inset 0 0 0 2px #000000;
+}
+
+.button-search:hover {
+  color: #Ffffff;
+
+  background-color: #000000;
+}
+
+.button-search:active {
+  color: rgba(255, 255, 255, 0.3);
+
+  background-color: #000000;
+}
+
+.best-products h3 {
+  margin: 0;
+  padding: 0;
+
+  font-size: 179px;
+  line-height: 179px;
+  letter-spacing: 0.36px;
+}
+
+.intro {
+  font-size: 47px;
+  line-height: 56px;
+  letter-spacing: 0.17px;
+}
+
+.details {
+  color: #000000;
+
+  letter-spacing: 2.15px;
+  text-transform: uppercase;
+}
+
+.best-products p {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 300;
+  letter-spacing: 0.15px;
+}
+
+.best-products th {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 300;
+  letter-spacing: 0.13px;
+}
+
+.best-products td {
+  font-size: 36px;
+  line-height: 48px;
+  font-weight: 300;
+  letter-spacing: 0.36px;
+}
+
+.categories-list img {
+  background-color: rgba(240, 197, 46, 0.5);
+}
+
+.categories-list a {
+  color: #000000;
+}
+
+
+.categories-list h2 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 800;
+  letter-spacing: 0.18px;
+}
+
+.categories-list h2:active {
+  opacity: 0.3;
+}
+
+.categories-list img:hover,
+.categories-list img:focus {
+  background-color: rgba(240, 197, 46, 1);
+}
+
+.catalog-list img:active {
+  color: rgba(54, 54, 54, 0.3);
+}
+
+.service {
+  background-color: #e5e5e5;
+}
+
+.service-list h2 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 800;
+  letter-spacing: 2.15px;
+
+  text-transform: uppercase;
+}
+
+.service-list h3 {
+  font-size: 47px;
+  line-height: 48px;
+  font-weight: 800;
+  letter-spacing: 0.21px;
+}
+
+.service-list p {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 300;
+  letter-spacing: 0.15px;
+}
+
+.manufacturers img {
+  filter: grayscale(100%);
+  opacity: 0.2;
+}
+
+.manufacturers img:hover,
+.manufacturers img:focus {
+  filter: none;
+  opacity: 1;
+}
+
+.about-us h2 {
+  font-size: 47px;
+  line-height: 48px;
+  letter-spacing: 0.21px;
+}
+
+.about-us p {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+.transport-companies b {
+  font-size: 16px;
+  line-height: 40px;
+}
+
+.contacts h2 {
+  font-size: 47px;
+  line-height: 48px;
+}
+
+.contacts p {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+.main-footer {
+  color: #Ffffff;
+  background-color: #464646;
+}
+
+.main-footer .logotype {
+  color: #ffc600;
+}
+
+.main-footer a {
+  color: #Ffffff;
+}
+
+.user-navigation__footer {
+  opacity: 0.7;
+
+  letter-spacing: 0.15px;
+}
+
+.user-navigation__footer:hover,
+.user-navigation__footer:focus {
+  opacity: 1;
+}
+
+.user-navigation__footer:active {
+  opacity: 0.3;
+}
+
+.adress,
+.tel {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+.footer-social a {
+  opacity: 0.3;
+}
+
+.footer-social a:hover,
+.footer-social a:focus {
+  opacity: 0.6;
+}
+
+.footer-social a:active {
+  opacity: 0.1;
+}
+
+.html-academy:hover,
+.html-academy:focus {
+  opacity: 0.6;
+}
+
+.html-academy:active {
+  opacity: 0.3;
+}
+
+.write-us {
+  box-shadow: 5px 10px 20px 0 rgb(2%, 2%, 2%, 0.2);;
+}
+
+.write-us label {
+  font-family: "Gilroy", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 800;
+}
+
+.write-us input {
+  border: none;
+
+  background-color: #f2f2f2;
+}
+
+.write-us input:hover {
+  background-color: #eaeaea;
+}
+
+.write-us input:focus {
+  background-color: #ffffff;
+
+  box-shadow: inset 0 0 0 2px #f0c52e;
+}
+
+.write-us input:invalid {
+  background-color: #f6dada;
+}
+
+.write-us textarea {
+  border: none;
+
+  background-color: #f2f2f2;
+}
+
+.write-us textarea:hover {
+  background-color: #eaeaea;
+}
+
+.write-us textarea:focus {
+  background-color: #ffffff;
+
+  box-shadow: inset 0 0 0 2px #f0c52e;
+}
+
+.write-us button {
+  font-family: "Gilroy", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 800;
+  text-transform: uppercase;
+
+  background-color: transparent;
+
+  border: none;
+}
+
+.page-title {
+  font-size: 47px;
+  line-height: 48px;
+  font-weight: 800;
+  letter-spacing: 0.17px;
+}
+
+.breadcrumbs {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  letter-spacing: 0.14px;
+
+  opacity: 0.3;
+}
+
+.breadcrumbs a {
+  color: #000000;
+}
+
+.breadcrumbs a:hover,
+.breadcrumbs a:focus {
+  opacity: 0.6;
+}
+
+.breadcrumbs a:active {
+  opacity: 0.1;
+}
+
+.filters {
+  background-color: #eeeeee;
+}
+
+.filters h2 {
+  font-size: 16px;
+  line-height: 24px;
+
+  background-color: #dbdbdb;
+
+  text-transform: uppercase;
+  letter-spacing: 0.91px;
+}
+
+.filters fieldset {
+  border: none;
+}
+
+.filters legend {
+  letter-spacing: 0.18px;
+}
+
+.price {
+  letter-spacing: 0.18px;
+}
+
+.sorting {
+  background-color: #ebebeb;
+}
+
+.sorting h2 {
+  font-family: "Gilroy", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 800;
+
+  text-transform: uppercase;
+  letter-spacing: 0.91px;
+}
+
+.sorting-list a {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.sorting-list a:active {
+  color: rgba(0, 0, 0, 1);
+}
+
+.color label,
+.bluetooth label {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 40px;
+  font-weight: 300;
+
+  letter-spacing: 0.14px;
+}
+
+.catalog-item h3 {
+  font-size: 18px;
+  line-height: 24px;
+  font-size: 800;
+  color: #000000;
+
+  letter-spacing: 0.18px;
+}
+
+.catalog-item span {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #464646;
+
+  letter-spacing: 0.16px;
+}
+
+.pagination-list a {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 800;
+  color: #000000;
+
+  letter-spacing: 0.91px;
+}
